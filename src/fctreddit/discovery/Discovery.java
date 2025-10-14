@@ -52,7 +52,6 @@ public class Discovery {
 	private final String serviceName;
 	private final String serviceURI;
 	private final MulticastSocket ms;
-
 	private final ConcurrentHashMap<String, Set<URI>> uriMap;
 	/**
 	 * @param serviceName the name of the service to announce
